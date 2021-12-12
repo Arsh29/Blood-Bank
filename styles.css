@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.bg{
+    display: flex;
+    justify-content: center;
+    background-image: url("https://images.unsplash.com/photo-1551845728-6820a30c64e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    height: 620px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.same{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
